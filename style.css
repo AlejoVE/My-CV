@@ -7,6 +7,10 @@ h1, h2 {
     text-align: center;
 }
 
+a {
+    color: white;
+}
+
 img {
     border-radius: 50%;
     max-width: 100%;
@@ -25,6 +29,13 @@ img {
     border-radius: 10px;
 }
 
+.right-container {
+    padding-left: 20px;
+    padding-right: 10px;
+    background-color: #ecf2f9;
+    border-radius: 10px;
+}
+
 #container-skills {
     display: grid;
     grid-template-columns: repeat(2, 50%);
@@ -37,4 +48,21 @@ img {
 
 .grid h3 {
     color: red
+}
+
+.institution {
+    color: #204060;
+    font-weight: bold;
+}
+
+.rol {
+    font-size: 90%;
+    color: #4d4d4d;
+    font-weight: bold;
+}
+
+.place-date {
+    font-weight: bold;
+    font-size: 85%;
+    color: #4d4d4d;
 }
