@@ -1,0 +1,25 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1, h2 {
+    text-align: center;
+}
+.main-container  {
+    display: grid;
+    grid-template-columns: 20% 30% 30% 20%;
+}
+
+#container-skills {
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+}
+
+.grid div {
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+}
+
+.grid h3 {
+    color: red
+}
