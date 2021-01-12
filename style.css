@@ -5,6 +5,11 @@ body {
 h1, h2 {
     text-align: center;
 }
+
+img {
+    border-radius: 50%;
+    max-width: 100%;
+}
 .main-container  {
     display: grid;
     grid-template-columns: 20% 30% 30% 20%;
